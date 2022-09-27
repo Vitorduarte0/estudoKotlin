@@ -19,6 +19,7 @@ fun main() {
     while (contador < precoDosProdutos.size){
             precoTotal += precoDosProdutos[contador]
         contador += 1
+
     }
     println("O preço total das compras foi $precoTotal")
 }
