@@ -16,7 +16,7 @@ fun main() {
     var contador = 0
     precoTotal = BigDecimal.ZERO
 
-    while (contador <= precoDosProdutos.size){
+    while (contador < precoDosProdutos.size){
             precoTotal += precoDosProdutos[contador]
         contador += 1
     }
